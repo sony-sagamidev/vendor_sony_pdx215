@@ -1850,6 +1850,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx215/proprietary/vendor/lib64/vendor.somc.hardware.aidlmiscta-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.aidlmiscta-V1-ndk_platform.so \
     vendor/sony/pdx215/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/pdx215/proprietary/vendor/lib64/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.radio@1.0.so \
+    vendor/sony/pdx215/proprietary/system/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.dolby.hardware.dms@2.0.so \    
+    vendor/sony/pdx215/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@2.0-service \
+    vendor/sony/pdx215/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
+    vendor/sony/pdx215/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
+    vendor/sony/pdx215/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so \
+    vendor/sony/pdx215/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so
+    vendor/sony/pdx215/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql \
+    vendor/sony/pdx215/proprietary/vendor/lib/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libozoprocessing.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libozoprocessing.so \
+    vendor/sony/pdx215/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedap.so \
+    vendor/sony/pdx215/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
+    vendor/sony/pdx215/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_ac4dec.so \
+    vendor/sony/pdx215/proprietary/vendor/lib64/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_ddpdec.so \
     vendor/sony/pdx215/proprietary/vendor/lib64/vendor.somc.hardware.security.secd@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.security.secd@1.1.so \
     vendor/sony/pdx215/proprietary/vendor/lib64/vendor.somc.hardware.swiqi@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.swiqi@1.0-impl.so \
     vendor/sony/pdx215/proprietary/vendor/lib64/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.swiqi@1.0.so
@@ -1866,6 +1885,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.1 \
     CACertService \
     CneApp \
+    daxService \
     IWlanService \
     TimeService \
     com.qualcomm.qti.gpudrivers.lahaina.api30 \
@@ -1915,5 +1935,5 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     c2_manifest_vendor \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service
+    vendor.qti.hardware.servicetracker@1.2-service \
+    vendor.qti.gnss@4.0-service 
