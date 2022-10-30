@@ -1859,7 +1859,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx215/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
     vendor/sony/pdx215/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so \
     vendor/sony/pdx215/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
-    vendor/sony/pdx215/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so
+    vendor/sony/pdx215/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so \
     vendor/sony/pdx215/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql \
     vendor/sony/pdx215/proprietary/vendor/lib/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libozoprocessing.so \
     vendor/sony/pdx215/proprietary/vendor/lib64/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libozoprocessing.so \
